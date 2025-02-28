@@ -745,11 +745,6 @@ border-radius: 4px;
 
 }
 
-.closemodal-svg:hover,
-.closemodal-svg:focus{
-  fill: #ffffff
-}
-
 .modal-title{
   font-weight: 500;
   font-size: 16px; 
