@@ -862,12 +862,13 @@ fill: transparent;
 
 .user-privacy:checked + .checkbox-label .checkbox-span {
   border: none; 
-  fill: #F4F4FD; 
+  fill: #404bbf; 
   /* background-color: #31d0aa; */
 }
 
-.rivacy-link{
- color:#4d5ae5;   
+.privacy-link{ 
+ color: #4d5ae5;  
+ /* 4d5ae5  */
 }
 
 .form-button{
