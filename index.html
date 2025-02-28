@@ -513,7 +513,7 @@
       <div class="modal-window">
 
         <button class="close-modal-window" type="button" >
-          <svg class="closemodal-svg" width="8" height="8">1sss
+          <svg class="closemodal-svg" width="8" height="8">
             <use href="./images/icons.svg#icon-close-modal"></use>
           </svg>
         </button>
@@ -524,16 +524,39 @@
         </p>
  
         <form>
-          <div class="callback-name">
-            <label class="label-name" for="user-name">Nme</label>
+          
+          <div class="input-container">
+            <label class="label" for="user-name">Name</label>
             <div class="user-name-input-container">
-              <input  type="text" class="user-name-input"  id="user-name">
+              <input  name="user-name"  type="text" class="input"  id="user-name">
               <svg class="input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-user"></use>
               </svg>
             </div>
           </div>
-          </form>
+        
+          <div class="input-container">
+            <label class="label" for="user-phone">Phone</label>
+            <div class="input-container">
+              <input  name="user-phone"  type="text" class="input"  id="user-phone">
+              <svg class="input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>        
+        
+           <div class="input-container">
+            <label class="label" for="user-email">Email</label>
+            <div class="input-container">
+              <input  name="user-email"  type="email" class="input"  id="user-email">
+              <svg class="input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>             
+        
+        
+        </form>
 
       </div>
 
