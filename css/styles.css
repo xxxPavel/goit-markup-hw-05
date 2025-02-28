@@ -759,7 +759,7 @@ border-radius: 4px;
 
 }
 .input-container{
- /* position: relative; */
+ position: relative;
  margin-bottom: 8px;
  
 }
@@ -772,10 +772,7 @@ border-radius: 4px;
     margin-bottom: 4px; 
 
 }
-.input-container{
-  position: relative; 
-  margin-bottom: 16px
-}
+
 
 .input{
   width: 100%; 
