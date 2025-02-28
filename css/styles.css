@@ -858,15 +858,12 @@ fill: transparent;
 
 } */
 
-.checked{
-  /* background-color:#404bbf; */
-  border: none; 
-  fill: #F4F4FD;
-}
 
-.user-privacy:checked {
-   border: none; 
+
+.user-privacy:checked + .checkbox-label .checkbox-span {
+  border: none; 
   fill: #F4F4FD; 
+  /* background-color: #31d0aa; */
 }
 
 .rivacy-link{
