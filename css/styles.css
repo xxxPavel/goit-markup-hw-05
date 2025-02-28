@@ -773,6 +773,7 @@ position: relative;
 }
 .input-container{
   position: relative; 
+  margin-bottom: 16px
 }
 
 .input{
@@ -785,6 +786,8 @@ position: relative;
      outline: transparent; 
       transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 .input:focus{
   border-color: #4D5AE5;
@@ -859,6 +862,11 @@ fill: transparent;
   /* background-color:#404bbf; */
   border: none; 
   fill: #F4F4FD;
+}
+
+.user-privacy:checked {
+   border: none; 
+  fill: #F4F4FD; 
 }
 
 .rivacy-link{
