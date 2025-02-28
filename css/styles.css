@@ -725,15 +725,19 @@ border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-/* .close-modal-window:hover {
+.close-modal-window:hover {
  
  border: none;
- .closemodal-svg{fill: #FFFFFF}
-} */
+  background-color: #404bbf; 
+}
 
 .close-modal-window:focus{
   border: none; 
   background-color: #404bbf;
+}
+
+.close-modal-window:hover .closemodal-svg{
+  fill: #ffffff;
 }
 
 .closemodal-svg {
