@@ -789,10 +789,10 @@ position: relative;
 .input:focus{
   border-color: #4D5AE5;
 }
-.input:focus{
-  .input-icon{
+.input:focus .input-icon{
+
     fill: #4D5AE5;
-  }
+  
 }
 
 .input-icon{
