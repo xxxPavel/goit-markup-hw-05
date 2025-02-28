@@ -716,27 +716,30 @@ border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
-
-.close-modal {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: black; 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+.button-close{
+  position: absolute; 
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%; 
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;  
+  cursor: pointer;
 }
 
-.close-modal:hover { 
+.button-close:hover,
+.button-close:focus { 
   border: none;
   background-color: #404bbf; 
 }
 
-.close-modal:focus{
-  border: none; 
-  background-color: #404bbf;
-}
-
-.close-modal:hover .closemodal-svg,
-.close-modal:focus .closemodal-svg{
+.button-close:hover .closemodal-svg,
+.button-close:focus .closemodal-svg{
   fill: #ffffff;
 }
 
