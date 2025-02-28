@@ -773,6 +773,12 @@ border-radius: 4px;
 
 }
 
+.user-name:hover .input-icon {
+  fill: #4D5AE5;
+  background-color: #31d0aa;
+
+}
+
 
 .input{
   width: 100%; 
@@ -790,9 +796,10 @@ border-radius: 4px;
 .input:focus{
   border-color: #4D5AE5;
 }
-.input:focus .input-icon{
+.input:focus + .input-icon{
 
     fill: #4D5AE5;
+
   
 }
 
