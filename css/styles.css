@@ -759,8 +759,9 @@ border-radius: 4px;
 
 }
 .input-container{
+ /* position: relative; */
  margin-bottom: 8px;
-position: relative;
+ 
 }
 .label{
    font-size: 12px;
