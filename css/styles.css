@@ -873,8 +873,8 @@ fill: transparent;
 
 .user-privacy:checked + .checkbox-label .checkbox-span {
   border: none; 
-  fill: #404bbf; 
-  /* background-color: #31d0aa; */
+  fill: #F4F4FD;
+  background-color: #404bbf;
 }
 
 .privacy-link{ 
