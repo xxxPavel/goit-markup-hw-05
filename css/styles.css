@@ -179,8 +179,9 @@ address {
   max-width: 1440px; */
   margin: 0 auto;
   max-width: 1440px; /* смещает бг в лево ! */
-  width: 100vw; /* Растягиваем на всю ширину экрана */
-  min-height: 100vh; /* Растягиваем на всю высоту экрана */
+  /* width: 100vw; Растягиваем на всю ширину экрана */
+  /* min-height: 100vh; Растягиваем на всю высоту экрана */
+   padding:188px 0;
 }
 
 .hero-title {
@@ -192,9 +193,9 @@ address {
   color: #ffffff;
   margin: 0 auto;
   max-width: 496px;
-  display: block;
+  /* display: block; */
   margin-bottom: 48px;
-  padding-top: 188px;
+  /* padding-top: 188px; */
 }
 
 .hero-button {
@@ -603,4 +604,68 @@ address {
 .socialmedia-list{
 display: flex; 
 gap: 16px;
+}
+
+.footer-form-title {
+  margin-bottom: 16px;
+  font-weight: 500; 
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+
+}
+
+.footer-form{
+  display: flex; 
+  gap: 24px;
+
+
+}
+
+.soobscribe-input {
+  width: 264px; 
+  height: 40px; 
+  border: 1px solid #ffffff; 
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   color: #ffffff; 
+
+}
+
+.soobscribe-input::placeholder{
+
+   color: #ffffff;
+
+}
+
+.soobscribe-button{
+  min-width: 165px;
+   height: 40px; 
+display: flex; 
+ justify-content: center;
+ align-items: center; 
+ font-family: "Roboto", sans-serif;
+ font-size: 16px;
+  font-weight: 500; 
+  line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: #ffffff; 
+   cursor: pointer;
+   background-color: #4D5AE5;
+    border: none; 
+border-radius: 4px;
+
+}
+
+.soobscribe-icon {
+  margin-left: 16px;
+  fill: #FFFFFF;
+
+
 }
